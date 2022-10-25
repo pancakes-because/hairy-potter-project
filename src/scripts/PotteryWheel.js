@@ -1,3 +1,5 @@
+/* VIEW THE CODE IN YOUR BROWSER */ 
+
 /* Define a variable in the module to have the value of the primary key for each piece of pottery. It should have an initial value of 1. */ 
 
 let primaryId = 0 
@@ -48,7 +50,7 @@ The makePottery function must return an object with the following properties on 
 // Maybe I need a for..of loop here 
 
 
-const makePottery = (shape, weight, height) => {
+export const makePottery = (shape, weight, height) => {
 
     const potteryItem = {}
 
@@ -61,12 +63,4 @@ const makePottery = (shape, weight, height) => {
     }
     return potteryItem 
 }
-
-// If I want to test the function in this module, uncomment the next 2 lines. 
-// let pottery = makePottery("flower vase", 0.75, 20) 
-// console.log(pottery)
-
-// code to export function to main.js 
-
-module.exports = { makePottery }
 
