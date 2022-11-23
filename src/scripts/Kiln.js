@@ -27,7 +27,8 @@ The function must add a new property of cracked to the object.
 */ 
 
 // ALGORITHMIC THINKING 
-// i'm passing in the pottery object I made with the makePottery() from before 
+// I'm passing the pottery object from before, which i'm naming "rawPottery", to the function
+// Then i'm returning it to myself with the new properties, fired and cracked, added 
 
 export const firePottery = (rawPottery,temp) => {
 
